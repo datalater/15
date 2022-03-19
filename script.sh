@@ -25,7 +25,7 @@ do
     continue
   fi
 
-  if [[ $filename == LOG.md ]]; then
+  if [[ $filename == LOG.md || $filename == README.md ]]; then
     continue
   fi
 
