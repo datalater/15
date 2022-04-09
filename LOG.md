@@ -7,3 +7,4 @@
 | 2022-03-22 | [`<section>` 버리고 HTML5 `<article>` 써야 하는 이유](https://webactually.com/2020/03/03/%3Csection%3E%EC%9D%84-%EB%B2%84%EB%A6%AC%EA%B3%A0-HTML5-%3Carticle%3E%EC%9D%84-%EC%8D%A8%EC%95%BC-%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0/) | [frontend/html-section-article.md](./frontend/html-section-article.md) |
 | 2022-03-26 | [MVC 창시자가 말하는, MVC의 본질](https://velog.io/@eddy_song/mvc) | [frontend/mvc-essence.md](./frontend/mvc-essence.md) |
 | 2022-03-29 | [Should I Use Vue 3 or Vue 2 In 2022?](https://javascript.plainenglish.io/should-i-use-vue-3-or-vue-2-in-2022-ba09c8059233) | [vue/vue3-or-vue2-2022.md](./vue/vue3-or-vue2-2022.md) |
+| 2022-04-09 | [(번역) 레이아웃 알고리즘 이해하기](https://junghan92.medium.com/%EB%B2%88%EC%97%AD-%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-baed8b1eca5f) | [frontend/css-layout-algorithm.md](./frontend/css-layout-algorithm.md) |
