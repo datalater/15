@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "Running pre-commit hook..."
-source ./log.sh
+source log.sh
