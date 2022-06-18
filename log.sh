@@ -28,7 +28,7 @@ rows=""
 newline=$'\n'
 
 # Use here string to re-write the while loop to be in the main shell process
-# Because, in `echo -e $files | while read line ... done`,
+# Because, in `echo $files | while read line ... done`,
 # the while loop is executed in a subshell, so any changes you do to the variable will not be available once the subshell exists.
 # Link: https://stackoverflow.com/a/16854326
 while IFS= read -r filename; do 
@@ -63,7 +63,7 @@ while IFS= read -r filename; do
     row="| $last_modified | $article | [$filename](./$filename) |"
     rows+=${row}${newline}
   fi
-done <<< "$(echo "$files")" # only `echo -e $files` will run in a subshell.
+done <<< "$(echo "$files")" # only `echo $files` will run in a subshell.
 
 # Remove last new line for appending new rows next time script is run
 rows=${rows%${newline}}
