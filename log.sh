@@ -63,7 +63,7 @@ while IFS= read -r filename; do
     row="| $last_modified | $article | [$filename](./$filename) |"
     rows+=${row}${newline}
   fi
-done <<< "$(echo -e "$files")" # only `echo -e $files` will run in a subshell.
+done <<< "$(echo "$files")" # only `echo -e $files` will run in a subshell.
 
 # Remove last new line for appending new rows next time script is run
 rows=${rows%${newline}}
